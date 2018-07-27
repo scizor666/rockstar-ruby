@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "rockstar"
+
+ruby_translated = Rockstar.transpile(ARGV[0])
+ruby_translated && File.write("rockstar.rb", ruby_translated)
