@@ -1,4 +1,4 @@
-# Rockstar-ruby [![Build Status](https://travis-ci.org/scizor666/rockstar-ruby.svg?branch=master)](https://travis-ci.org/scizor666/rockstar-ruby)
+# Rockstar-ruby [![Build Status](https://travis-ci.org/scizor666/rockstar-ruby.svg?branch=master)](https://travis-ci.org/scizor666/rockstar-ruby) [![Gem Version](https://badge.fury.io/rb/rockstar-ruby.svg)](https://badge.fury.io/rb/rockstar-ruby)
 
 ## Development is in progress, some features are still not ready
 
@@ -11,7 +11,7 @@ Generally it's following [Rockstar language specification](https://github.com/dy
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rockstar'
+gem 'rockstar-ruby'
 ```
 
 And then execute:
@@ -24,7 +24,7 @@ Or install it yourself as:
 
 ## Usage
 
-    $ rockstar-ruby "Some Rockstar Code is here"
+    $ rockstar-ruby $'Some Rockstar Code is here'
     
 Currently output will be in the file rockstar.rb in the current directory
 
