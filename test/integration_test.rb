@@ -29,9 +29,9 @@ Until my world is desire
 Build my world up}
     ruby_expected = "my_world=nil;last_night=true;pity_world='its prays';\
 lucy=15;it=my_world.to_f-lucy.to_f;it=my_world.to_f+lucy.to_f;it=my_world.to_f*lucy.to_f;it=my_world.to_f/lucy.to_f;me=33;\
-if((lucy).to_f>=(my_world).to_f);everyone=6;else;everyone=524;end;\
-if((lucy.to_f-me.to_f).to_f>(lucy.to_f+me.to_f).to_f);everything=527;end;\
-desire=100;my_world=nil;fire=3;hate=5;until((my_world).to_f==(desire).to_f);my_world=my_world.to_f+1;end;"
+if(((lucy).to_f>=(my_world).to_f));everyone=6;else;everyone=524;end;\
+if(((lucy.to_f-me.to_f).to_f>(lucy.to_f+me.to_f).to_f));everything=527;end;\
+desire=100;my_world=nil;fire=3;hate=5;until((my_world).to_f==(desire).to_f);my_world=my_world.to_f+1;end"
     assert_equal ruby_expected, Rockstar.transform(tree)
   end
 
@@ -75,9 +75,9 @@ return your_heart;\
 end;\
 my_world=nil;last_night=true;pity_world='its prays';\
 lucy=15;it=my_world.to_f-lucy.to_f;it=my_world.to_f+lucy.to_f;it=my_world.to_f*lucy.to_f;it=my_world.to_f/lucy.to_f;me=33;\
-if((lucy).to_f>=(my_world).to_f);everyone=6;else;everyone=524;end;\
-if((lucy.to_f-me.to_f).to_f>(lucy.to_f+me.to_f).to_f);everything=527;end;\
-desire=100;my_world=nil;fire=3;hate=5;until((my_world).to_f==(desire).to_f);my_world=my_world.to_f+1;end;"
+if(((lucy).to_f>=(my_world).to_f));everyone=6;else;everyone=524;end;\
+if(((lucy.to_f-me.to_f).to_f>(lucy.to_f+me.to_f).to_f));everything=527;end;\
+desire=100;my_world=nil;fire=3;hate=5;until((my_world).to_f==(desire).to_f);my_world=my_world.to_f+1;end"
     assert_equal ruby_expected, Rockstar.transform(tree)
   end
 end
